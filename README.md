@@ -2,8 +2,8 @@
 
 contains two folders
 
-##gatsby
+## gatsby
 the site generator
 
-##sanity
+## sanity
 the cms
