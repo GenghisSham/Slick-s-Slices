@@ -1,6 +1,7 @@
 import React from 'react';
 import ItemGrid from '../components/ItemGrid';
 import LoadingGrid from '../components/LoadingGrid';
+import SEO from '../components/SEO';
 import { HomePageGrid } from '../styles/Grids';
 import useLatestData from '../utils/useLatestData';
 
@@ -37,6 +38,7 @@ export default function HomePage() {
 
     return (
         <>
+            <SEO title="Home of the Slice's"></SEO>
             <div className="center">
                 <h1>The best Pizza Downtown!</h1>
                 <p>Open 11am to 11pm every single day</p>

@@ -15,6 +15,7 @@ const OrderStyles = styled.form`
 
         &.menu, &.order {
             grid-column: span 1;
+            align-content: flex-start;
         }
 
         .order-error {
